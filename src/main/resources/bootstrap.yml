@@ -1,2 +1,6 @@
 encrypt:
-  key: aeorgijehfkgbjkajsdfxzcz124253123234523
+#  key: aeorgijehfkgbjkajsdfxzcz124253123234523
+  key-store:
+    location: file:\\\D:\\Study\\msa\\keystore\\apiEncryptionKey.jks
+    password: test1234
+    alias: apiEncryptionKey
